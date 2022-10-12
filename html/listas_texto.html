@@ -1,0 +1,258 @@
+<!doctype html>
+<html>
+ <head>
+ <title>Formatos de Texto en html</title>
+	 <style type="text/css">
+	 body header {
+    height: 150px;
+    background-color: #703536;
+    color: #FFFFFF;
+}
+body header h1 {
+    text-align: center;
+    height: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+body header, body nav, body main, body footer {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+body nav {
+    height: 60px;
+    background-color: #B7696A;
+    color: #FFBCBD;
+}
+body main section {
+    width: 800px;
+    height: auto;
+    background-color: #F3EDBB;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    text-align: left;
+
+}
+section p a:link , section p a:visited{
+    color: #EB58D3;
+    font-weight: bold;
+    text-decoration: none;
+}
+section p a:hover {
+    color: #09BD8E;
+    font-size: 25px;
+}
+
+
+
+
+body main {
+    background-color: #FFB7B8;
+    margin-top: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+body footer h6 {
+    height: 25px;
+    text-align: center;
+    padding-top: 12.5px;
+    padding-bottom: 12.5px;
+    font-size: 15px;
+}
+
+body footer {
+    background-color: #B7696A;
+    color: #F9B1B2;
+    height: 50px;
+}
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#menu {
+    height: 60px;
+    display: inline-block;
+}
+#menu li {
+    display: inline-block;
+    width: 112px;
+    height: 48px;
+    background-color: #7C4444;
+    color: #F3EDBB;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    margin-left: 4px;
+    margin-right: 20px;
+}
+#menu li a:link , #menu li a:visited{
+    color: #F3EDBB;
+    text-decoration: overline;
+}
+#menu li a:hover {
+    color: #00E13C;
+    font-size: 24px;
+    height: auto;
+}
+
+
+section ul li {
+    width: 90px;
+    height: 80px;
+    display: inline-table;
+    background-color: #B7696A;
+    color: #F3EDBB;
+    border: 5px solid #FFB7B8;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 35px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 30px;
+    padding-bottom: 10px;
+}
+section ul li a:link ,section ul li a:visited{
+    color: #F3EDBB;
+}
+section ul li a:hover {
+    color: #07E142;
+    font-size: 24px;
+}
+#index {
+    color: #FFFFFF;
+}
+
+     </style>
+ </head>
+ <body>
+ <header>
+ <h1>Listas en HTML</h1>
+ </header>
+<nav>
+	 <ul id="menu">
+	  <li><a href="formatos_texto.html">Formatos de Texto</a></li>
+	  <li><a href="listas_texto.html">Listas en HTML</a></li>
+	  <li><a href="enlaces_texto.html">Enlaces en HTML</a></li>
+	  <li><a href="tablas_textos.html">Tablas en HTML</a></li>
+	  <li><a href="imagenes_texto.html">Imagenes en HTML</a></li>
+	  <li><a href="audio_texto.html">Audio en HTML</a></li>
+	  <li><a href="video_texto.html">Video en HTML</a></li>
+	  <li><a href="formulario_texto.html">Formulario en HTML</a></li>
+  </ul>
+	 </nav>
+ <main>
+	 
+	 <section class="box_impar"> 
+		 <h2>Lista Ordenada</h2>
+		 <p>Nunc mauris neque, facilisis non
+massa at, congue auctor dui. Duis
+mollis rutrum nulla, et aliquam urna rutrum quis. Ut porttitor
+ in dui id molestie. Cras vitae justo id dolor suscipit commodo
+ lobortis eu dui. Maecenas sollicitudin accumsan ipsum, nec pretium sem rutrum nec.</p>
+		 <ol>
+			 <li>Puebla</li>
+			 <li>Veracruz</li>
+			 <li>Tabasco</li>
+			 <li>Chiapas</li>
+			 <li>Tlaxcala</li>
+		 </ol>
+		 
+ </section>
+	 
+	 <section>
+		 <h2>Lista desordenada</h2>
+		 <p>Lorem ipsum dolor sit amet,
+consectetur adipiscing elit. Donec id purus
+in enim finibus consequat non eget dui. Vivamus auctor
+ felis et metus vestibulum sodales. Mauris porttitor iaculis
+ finibus.</p>
+		 
+		 <ul id="lista_2">
+			 <li>Puebla</li>
+			 <li>Veracruz</li>
+			 <li>Tabasco</li>
+			 <li>Chiapas</li>
+			 <li>Tlaxcala</li>
+		 </ul>
+
+	 </section>
+
+	 <section class="box_impar">
+		 <h2>Lista Mixta</h2>
+		 <p>Lorem ipsum dolor sit amet,
+consectetur adipiscing elit. Donec id purus
+in enim finibus consequat non eget dui. Vivamus auctor
+ felis et metus vestibulum sodales. Mauris porttitor iaculis
+ finibus.</p>
+		 
+		 <ol>
+			 <li>México
+				 <ul>
+			 <li>Puebla
+				 <ol>
+					 <li>Atlixco</li>
+					 <li>Tehucan</li>
+					 <li>Puebla</li>
+				 </ol>
+					 </li>
+			 <li>Veracruz</li>
+			 <li>Tabasco</li>
+			 <li>Chiapas</li>
+			 <li>Tlaxcala</li>
+			 </ul>
+			 
+			 </li>
+			
+			 <li>Estados Unidos</li>
+			 <li>Italia</li>
+			 <li>Brasil</li>
+			 <li>Tlaxcala</li>
+		 </ol>
+	 </section>
+	 <section id="box_unica">
+	   
+	     <h2>Este es el contenido de la etiqueta H2 de diseño</h2>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat facilis, esse iste beatae, sed alias enim praesentium sequi vero incidunt dolorem similique amet eos dolor laborum iure deserunt dolores labore nesciunt. Quam quo, delectus! Voluptatem accusantium, necessitatibus facilis animi nihil iusto molestiae deserunt commodi, illum repellendus labore. Delectus, iure, temporibus.</p>
+	   <ul id="Lista_1">
+			 <li><a href="https://es.wikipedia.org/wiki/Puebla">Puebla</a></li>
+			 <li><a href="https://es.wikipedia.org/wiki/Veracruz">Veracruz</a></li>
+			 <li><a href="https://es.wikipedia.org/wiki/Tabasco">Tabasco</a></li>
+			 <li><a href="https://es.wikipedia.org/wiki/Chiapas">Chiapas</a></li>
+			 <li><a href="https://es.wikipedia.org/wiki/Tlaxcala">Tlaxcala</a></li>
+		 </ul>
+     </section>
+	 
+	 <section>
+	   <h2>Lista desde Dreamweaver</h2>
+	   <p>Lorem ipsum dolor sit amet,
+		   consectetur adipiscing elit. Donec id purus
+		   in enim finibus consequat non eget dui. Vivamus auctor
+		   felis et metus vestibulum sodales. Mauris porttitor iaculis
+		   finibus.</p>
+		 <ol>
+		   <li>Flores</li>
+		   <li>Rosas</li>
+		   <li>Clabeles</li>
+       </ol>
+   </section>
+	 
+
+	 
+ </main>
+ <footer>
+	 <h6><a href="../index.html" id="index">Elaborado por Fernando González Ramírez</a></h6>
+	 
+ </footer>
+ </body>
+</html>
